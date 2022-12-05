@@ -1,0 +1,17 @@
+
+
+DeSci Nodes are tools that allow for more collaboration and data sharing by creating interoperable research objects. These objects include more than just a PDF or HTML page, but also data, code, videos, and other hypermedia content. This makes it easy for scientists to create and share these objects.
+Currently, the scholarly research infrastructure is scattered and disconnected. This makes it difficult to store and share data files cost-effectively. One way to solve this problem is by building on the decentralized web and using content address storage and other decentralized systems. This would allow us to name and access these services at a much lower cost than alternatives.
+
+
+In order to improve the reusability of scientific artifacts, we need to adopt a system like Git or Github which can keep track of different versions (i.e. be versionable). Currently, the scientific ecosystem lacks this kind of system, which hampers reuse. Crossref is one system that is trying to connect all of these disparate pieces together, but it remains to be seen whether it is scalable.
+The problem we're trying to address is that the current scientific record is quite messy, with a lot of technical depth that scientists don't need to know. This makes it difficult to do discovery- which is the process of finding and using data for new purposes. We're trying to make it easier to store, share, and discover data.
+In order to make global research objects, we need high levels of granularity and identifiers that allow us to store large data sets. The next frontier is bringing computation to these data sets so that they can be published and reused without having to download them locally.
+
+
+This paragraph discusses the main differentiators of the GoFair system or building. GoFair wants to empower the scientific community to have cost effective and cheap solutions to share their work. In this way, GoFair can improve their ability to gather credit and contribute to verifiable research while providing them with recognition.
+
+
+The GoFair Foundation is working on a platform that will include features like the ability to upload manuscripts, open data sets, and metadata. This platform will also have the ability to embed PIDs into manuscripts, as well as a JSON LD self-describing data model. The goal of the GoFair Foundation is to create an interoperable network of research objects that can be used by anyone to fork, improve, and add value.
+The goal is to have an interoperable research system where objects can be reused and code can be leveraged to build on the shoulders of giants in order to accelerate knowledge discovery.
+In the future, citations could be automatically computed based on the reuse of data sets, code, and other artifacts. This would create a credit flow that incentivizes sharing, and ultimately creates a more verifiable and traceable scientific record.
