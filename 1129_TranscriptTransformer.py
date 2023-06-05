@@ -131,22 +131,5 @@ def SummarizeThoughts(path, filename, openai, aggregate, iterations):
 openai.api_key = "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"
 path = '/Users/desot1/Documents/GitHub/DeSci-Experiments/'
 
-
-#audiofilename = 'future-of-science-se_untitled-recording_erik-7c7d35045_2022-nov-14-1559pm-utc-riverside.wav'
-#transcript_text = GetTranscriptFromAudio(path, audiofilename)
-#CleanThoughts(path, "CallTranscriptFull.txt", openai)
 SummarizeThoughts(path, "TranscriptSegmentedIntoThoughts.txt", openai, 1, 2)
-#SummarizeThoughts(path, "CleanedSummary.txt", openai, 5)
-#GetTranscriptFromAudio(path, "philipp.wav")
-#GetTranscriptFromAudio(path, "philipp.wav")
-#GetTranscriptFromAudio(path, "carla.wav")
 
-
-
-
-
-
-#filename = "CallTranscriptFull.txt"
-#video_id = 'vWvYTTA_8EA'
-#transcript_text = FormatYouTubeTranscript(video_id,path)
-#CreateModularContent(openai, filename, path)
