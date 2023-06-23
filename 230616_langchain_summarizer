@@ -1,0 +1,27 @@
+from langchain import OpenAI, PromptTemplate, LLMChain
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.chains.mapreduce import MapReduceChain
+from langchain.prompts import PromptTemplate
+from langchain.chains.summarize import load_summarize_chain
+import textwrap
+
+llm = OpenAI(temperature=1)
+
+text_splitter = CharacterTextSplitter()
+
+with open("/Users/desot1/Downloads/M4M Introduction - Training - 26April2023.txt") as f:
+    m4mintro = f.read()
+
+docs = text_splitter.create_documents(m4mintro)[:10]
+
+chain = load_summarize_chain(llm, 
+                             chain_type="map_reduce",
+                             verbose = True)
+
+output_summary = chain.run(docs)
+wrapped_text = textwrap.fill(output_summary, width=100)
+
+with open("m4msummary.txt", "a") as f: 
+    f.write(wrapped_text)
+
+print(wrapped_text)
